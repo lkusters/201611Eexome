@@ -4,9 +4,9 @@ the exome and corresponding to the genome. Then we apply the models for
 compression on each separate sequence and store the performance.
 
 ## Modules summary
-Pmodel.py - parser for constructing the model corresponding to input files
-Papply.py - parser for applying given models to input files and storing the results
-Pprintrecords.py - parser for testing some basic functions
+- Pmodel.py - parser for constructing the model corresponding to input files
+- Papply.py - parser for applying given models to input files and storing the results
+- Pprintrecords.py - parser for testing some basic functions
 
 ## Dependencies
 For this experiment we need packages: contexttree, DNAseqhandling
