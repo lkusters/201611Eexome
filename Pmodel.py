@@ -42,6 +42,7 @@ else:
 
 seqs = seqgenerator(filenamesin)
 treemodel = seqsmodel(depth, seqs, revcom)
+print('storing model in {0}\n'.format(filenameout))
 handle = open(filenameout, 'wb')
 pickle.dump(treemodel, handle)
 handle.close()
